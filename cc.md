@@ -8,4 +8,4 @@ hahahahaah哈哈哈
 | zebra stripes | are neat      |  	  $1 |
 
 
-![tu](http://25.io/mou/Mou_128.png "Optional title")
+![tu](http://25.io/mou/Mou_128.png)
