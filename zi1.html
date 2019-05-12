@@ -5,11 +5,11 @@
 <title>TAB样式</title>
 </head>
 <style type="text/css">
-  #head{width:400px;
+  #head{width:1200px;
         height:30px;}
   #head ul{padding:0; margin:0;}
   #head ul li{ list-style:none; float:left; text-decoration:none; display:block;
-               width:80px;padding:5px; margin:0px 10px 0px 0px; position:relative;}
+               width:100px;padding:5px; margin:0px 10px 0px 50px; position:relative;}
   #head ul li a{ text-decoration:none; color:#000000;}
   #head ul li a:visited{ text-decoration:none; color:#000000;}
 
@@ -35,9 +35,9 @@
   }
 
 #d1{
- background-color:#9CC;
- border:1px solid #C39;
- width:400px;
+ background-color:#fff;
+ border:1px solid #000;
+ width:800px;
   height:220px;
   margin-top:0px;
   position:absolute;
@@ -45,33 +45,33 @@
 
  }
 #d2{
- background-color:#CC9;
- border:1px solid #309;
+ background-color:#fff;
+ border:1px solid #000;
     display:none;
-    width:400px;
+    width:800px;
     height:220px;
     margin-top:0px;
     position:absolute;
     z-index:1;
  }
 #d3{
- background-color:#FF3;
- border:1px solid #360;
+ background-color:#fff;
+ border:1px solid #000;
  display:none;
- width:400px;
-  height:220px;
+ width:800px;
+  height:auto;
   margin-top:0px;
   position:absolute;
   z-index:1;
  }
 
 #d4{
- background-color:#690;
- border:1px solid #360;
+ background-color:#fff;
+ border:1px solid #000;
  display:none;
-  width:400px;
+  width:800px;
   position:absolute;
-  height:220px;
+  height:auto;
   margin-top:0px;
   z-index:1;
  }
@@ -93,9 +93,9 @@ function Tab(num)
 <div id="head">
 <ul>
  <li id="L1" onclick="Tab(1)"><a href="#">公告信息</a></li>
- <li id="L2" onclick="Tab(2)"><a href="#">今日热点</a></li>
- <li id="L3" onclick="Tab(3)"><a href="#">最新新闻</a></li>
- <li id="L4" onclick="Tab(4)"><a href="#">考试信息</a></li>
+ <li id="L2" onclick="Tab(2)"><a href="#">种植技术</a></li>
+ <li id="L3" onclick="Tab(3)"><a href="#">病虫诊断</a></li>
+ <li id="L4" onclick="Tab(4)"><a href="#">其它</a></li>
 </ul>
 </div>
 
@@ -109,26 +109,44 @@ function Tab(num)
 </div>
 <div id="d2">
 <ul>
-  <li>这里是今日热点</li>
-  <li>这里是今日热点</li>
-  <li>这里是今日热点</li>
-  <li>这里是今日热点</li>
+  <li>这里是种植技术</li>
+  <li>这里是种植技术</li>
+  <li>这里是种植技术</li>
+  <li>这里是种植技术</li>
 </ul>
 </div>
 <div id="d3">
-<ul>
-  <li>这里是最新新闻</li>
-  <li>这里是最新新闻</li>
-  <li>这里是最新新闻</li>
-  <li>这里是最新新闻</li>
-</ul>
+<table id="DataList1" cellspacing="0" style="width:100%;border-collapse:collapse;">
+	<tr>
+		<td align="left" style="height:30px;width:175px;">
+                    <a style="float:left;" href="#" target="_blank"><font color='#E37200'>[病虫]</font>竹绒野螟</a>
+               </td><td align="left" style="height:30px;width:175px;">
+                    <a style="float:left;" href="#" target="_blank"><font color='#E37200'>[病虫]</font>草履蚧</a>
+               </td><td align="left" style="height:30px;width:175px;">
+                    <a style="float:left;" href="#" target="_blank"><font color='#E37200'>[病虫]</font>竹金黄镰翅野螟</a>
+               </td><td align="left" style="height:30px;width:175px;">
+                    <a style="float:left;" href="#" target="_blank"><font color='#E37200'>[病虫]</font>槐尺蛾</a>
+               </td>
+	</tr><tr>
+		<td align="left" style="height:30px;width:175px;">
+                    <a style="float:left;" href="#" target="_blank"><font color='#E37200'>[病虫]</font>竹小蜂</a>
+               </td><td align="left" style="height:30px;width:175px;">
+                    <a style="float:left;" href="#" target="_blank"><font color='#E37200'>[病虫]</font>黄刺蛾</a>
+               </td><td align="left" style="height:30px;width:175px;">
+                    <a style="float:left;" href="#" target="_blank"><font color='#E37200'>[病虫]</font>栾树枣龟蜡介</a>
+               </td><td align="left" style="height:30px;width:175px;">
+                    <a style="float:left;" href="#" target="_blank"><font color='#E37200'>[病虫]</font>金纹细蛾</a>
+               </td>
+	</tr>
+</table>
+
 </div>
 <div id="d4">
 <ul>
-  <li>这里是考试信息</li>
-  <li>这里是考试信息</li>
-  <li>这里是考试信息</li>
-  <li>这里是考试信息</li>
+  <li>这里是其它信息</li>
+  <li>这里是其它信息</li>
+  <li>这里是其它信息</li>
+  <li>这里是其它信息</li>
 </ul>
 </div>
 </body>
