@@ -2,7 +2,7 @@
 ## 哈哈
 You can use the [editor on GitHub](https://github.com/findu123/findu123.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-You can use the [editor on GitHub](./bb.html) to maintain and preview the content for your website in Markdown files.
+You can use the [editor on GitHub](./zi1.html) to maintain and preview the content for your website in Markdown files.
 
 You can use the [editor on GitHub](./cc.md) to maintain and preview the content for your website in Markdown files.
 
